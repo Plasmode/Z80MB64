@@ -57,7 +57,7 @@ Instead of the EPM7128S, a smaller EPM7064S is used because it is available in P
 [HTC309](https://github.com/Plasmode/Z80SBC64/blob/main/Software/htc309.zip) is version 3.09 of HiTech C that has been released into publica domain. It is compressed with arj, use unarj.com above to decompress
 
 ### Instruction and Manuals
-- Getting started guide
+- [Getting started](Manuals/Getting_started.md) guide
 - [ZMon64](https://github.com/Plasmode/Z80SBC64/blob/main/Manuals/ZMon.md) manual
 - [Pictorial assembly guide](Manuals/Assembly_guide.md)
 -  [Creating new CF disk](https://github.com/Plasmode/Z80SBC64/blob/main/Manuals/Create_CF_with_Macro.md) for Z80SBC64 and Z80MB64 with a TeraTerm Macro
