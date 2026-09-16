@@ -60,4 +60,4 @@ Instead of the EPM7128S, a smaller EPM7064S is used because it is available in P
 - Getting started guide
 - [ZMon64](https://github.com/Plasmode/Z80SBC64/blob/main/Manuals/ZMon.md) manual
 - [Pictorial assembly guide](Manuals/Assembly_guide.md)
-- Creating new CF disk for Z80SBC64 and Z80MB64 with a TeraTerm Macro
+-  [Creating new CF disk](https://github.com/Plasmode/Z80SBC64/blob/main/Manuals/Create_CF_with_Macro.md) for Z80SBC64 and Z80MB64 with a TeraTerm Macro
