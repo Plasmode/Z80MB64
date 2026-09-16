@@ -21,7 +21,7 @@ Z80SBC64 Monitor v{x.x} {date}
 ```
 Type '**c0**' to copy ZMon64 to the bootstrap RAM area which is located in a different bank protected from modification by normal software. Power down the board and move the mode jumper to “RAM bootstrap” position. Reapply the power and you should see the ZMon64 sign-on message.
 
-For TeraTerm users, the remaining software can be installed using a TeraTerm Macro here:
+For TeraTerm users, the remaining software can be installed using a [TeraTerm Macro](https://github.com/Plasmode/Z80SBC64/blob/main/Manuals/Create_CF_with_Macro.md) here:
 
 To install CP/M 2.2, load cpm22all.hex and type 'c2' to copy cpm22 CCP/BDOS/BIOS to track 0 of CF disk. Type “xA” to clear the directory of CF drive A:, “xB” to clear the directory of drive B:, etc. load XMODEM.HEX in ZMon64 and then type 'b2' to boot CP/M 2.2. At CP/M prompt, a>, type
 
