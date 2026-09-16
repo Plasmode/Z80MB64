@@ -23,7 +23,7 @@ Type '**c0**' to copy ZMon64 to the bootstrap RAM area which is located in a dif
 
 For TeraTerm users, the remaining software can be installed using a [TeraTerm Macro](https://github.com/Plasmode/Z80SBC64/blob/main/Manuals/Create_CF_with_Macro.md) here:
 
-To install CP/M 2.2, load cpm22all.hex and type 'c2' to copy cpm22 CCP/BDOS/BIOS to track 0 of CF disk. Type “xA” to clear the directory of CF drive A:, “xB” to clear the directory of drive B:, etc. load XMODEM.HEX in ZMon64 and then type 'b2' to boot CP/M 2.2. At CP/M prompt, a>, type
+To install CP/M 2.2, load [cpm22all.hex](https://github.com/Plasmode/Z80SBC64/blob/main/Software/cpm22all_z80sbc64.zip) and type '**c2**' to copy cpm22 CCP/BDOS/BIOS to track 0 of CF disk. Type “**xA**” to clear the directory of CF drive A:, “**xB**” to clear the directory of drive B:, etc. load [XMODEM.HEX](https://github.com/Plasmode/Z80SBC64/blob/main/Software/xmodem.hex) in ZMon64 and then type '**b2**' to boot CP/M 2.2. At CP/M prompt, a>, type
 
 **save 17 xmodem.com**
 
@@ -31,7 +31,7 @@ This will create a file “xmodem.com” in drive A: From now on, use xmodem to 
 
 **xmodem filename /r/c/z1**
 
-The first file to transfer is unarj.com and the 2nd file is cpm22dri.arj. (Note: xmodem software use internal software delays to wait for the start of file load. 22MHz Z80 is very fast and does not give sufficient time to search for file to be uploaded. So put the files to be uploaded in the default directory and start the file upload quickly after the xmodem command is issued.) After both files are transferred, type
+The first file to transfer is [unarj.com](https://github.com/Plasmode/Z80SBC64/blob/main/Software/unarj.zip) and the 2nd file is [cpm22dri.arj](https://github.com/Plasmode/ZRCC/blob/main/rev1.0_rev1.1/software/cpm22dri.zip). (Note: xmodem software use internal software delays to wait for the start of file load. 22MHz Z80 is very fast and does not give sufficient time to search for file to be uploaded. So put the files to be uploaded in the default directory and start the file upload quickly after the xmodem command is issued.) After both files are transferred, type
 
 **unarj e cpm22dri**
 
