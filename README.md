@@ -52,9 +52,9 @@ Instead of the EPM7128S, a smaller EPM7064S is used because it is available in P
 
 [unarj.com](https://github.com/Plasmode/Z80SBC64/blob/main/Software/unarj.zip) is the CP/M program that decompresses CPM3ALL.ARJ and CPM22DRI.ARJ above. The command is “unarj e filename”
 
-Zorkall is Zork1, Zork2, and Zork3 compressed with arj. Use unarj.com above to decompress.
+[Zorkall](https://github.com/Plasmode/Z80SBC64/blob/main/Software/zorkall.zip) is Zork1, Zork2, and Zork3 compressed with arj. Use unarj.com above to decompress.
 
-HTC309 is version 3.09 of HiTech C that has been released into publica domain. It is compressed with arj, use unarj.com above to decompress
+[HTC309](https://github.com/Plasmode/Z80SBC64/blob/main/Software/htc309.zip) is version 3.09 of HiTech C that has been released into publica domain. It is compressed with arj, use unarj.com above to decompress
 
 ### Instruction and Manuals
 - Getting started guide
